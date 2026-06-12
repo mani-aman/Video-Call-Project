@@ -59,3 +59,126 @@
     position: absolute;
     bottom: 0;
 }
+
+
+
+.app {
+    height: 100vh;
+    width: 100%;
+    background: #424040;
+    color: rgb(84, 81, 81);
+}
+
+/* ================= LOBBY ================= */
+.lobby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.lobbyBox {
+    background: #4a4a4a;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.joinBtn {
+    margin-top: 15px !important;
+}
+
+.preview video {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* ================= MEETING ================= */
+.meeting {
+    display: flex;
+    height: 100vh;
+}
+
+/* VIDEO SECTION */
+.videoArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainVideoBox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainVideo {
+    width: 60%;
+    border-radius: 12px;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.tile video {
+    width: 180px;
+    border-radius: 10px;
+}
+
+/* ================= CHAT ================= */
+.chatPanel {
+    width: 300px;
+    background: #adabab;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #c2bebe;
+}
+
+.chatHeader {
+    padding: 10px;
+    border-bottom: 1px solid #eeeded;
+}
+
+.chatBody {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.msg {
+    margin-bottom: 10px;
+}
+
+.chatInput {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* ================= CONTROLS ================= */
+.controls {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.end {
+    color: red !important;
+}
