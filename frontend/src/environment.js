@@ -9,6 +9,9 @@
 
 // export default server;
 
-const server = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const server =
+  process.env.NODE_ENV === "production"
+    ? "https://video-call-project-ftp7.onrender.com"
+    : "http://localhost:8000";
 
 export default server;
