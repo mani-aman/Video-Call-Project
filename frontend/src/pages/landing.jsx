@@ -74,12 +74,12 @@ export default function LandingPage() {
         </div>
 
         <div className="nav-links">
-          <button
+          {/* <button
             className="nav-btn ghost"
             onClick={() => navigate("/aljk23")}
           >
             Join as Guest
-          </button>
+          </button> */}
 
           <button
             className="nav-btn ghost"
